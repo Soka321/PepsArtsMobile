@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PepsArts_Mobile.Views.Login"
+             
+xmlns:local ="clr-namespace:PepsArts_Mobile.ViewModels"
+             Title="Login">
+    <ContentPage.BindingContext>
+        <local:LoginVM />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Spacing="10" Padding="20">
+        <Label 
+            Text="Login Here!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry Placeholder="Please Provide you email address" x:Name="email" Text="{Binding Email}" Keyboard ="Email" />
+        <Entry IsPassword="True" Placeholder="Plesae Provide your password"  x:Name="Password" Text="{Binding Password}"/>
+
+        <Button  Text="Login"  Command="{Binding OnLoginCommand}"/>
+        <Label Text="{Binding Message}" x:Name="lblError" />
+    </VerticalStackLayout>
+</ContentPage>

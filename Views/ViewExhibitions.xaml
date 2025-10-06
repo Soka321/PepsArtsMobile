@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PepsArts_Mobile.Views.ViewExhibitions"
+             xmlns:local ="clr-namespace:PepsArts_Mobile.ViewModels"
+             Title="ViewExhibitions">
+    <ContentPage.BindingContext>
+        <local:ExhibitionVM/>
+    </ContentPage.BindingContext>
+    <VerticalStackLayout Spacing="10" Padding="20">
+        <Label 
+            Text="Our Exhibitions"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <CollectionView ItemsSource="{Binding Exhibitions}"   SelectionMode="Single"  SelectionChanged = "OnSelectionChanged" x:Name="ExhibitionList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+
+
+
+                    <Border  Padding="10" Margin="5" >
+                        <VerticalStackLayout>
+
+
+
+                            <Label Text="{Binding Name}"  FontAttributes="Bold" FontSize="18"/>
+                            <Label Text="{Binding Start_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
+                            <Label Text="{Binding End_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
+                            <Label Text="{Binding Description}"  FontSize="14"/>
+                            <Label Text="{Binding Status}"  FontSize="14"/>
+
+
+
+                        </VerticalStackLayout>
+
+
+
+
+                        </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            
+        </CollectionView>
+
+        <Label  x:Name="lblName"   FontAttributes="Bold" FontSize="18"/>
+
+        <Label  x:Name="lblStartDate" FontSize="14" Text=" StartDate "/>
+
+        <Label  x:Name="lblEndDate" FontSize="14" Text=" End Date "/>
+
+        <Label  x:Name="lblDescription" FontSize="14" Text="Description"/>
+        <Label  x:Name="lblStatus" FontSize="14" Text="Status" />
+        <Label  x:Name="lblExhibitions" FontSize="14" Text="" />
+
+        <Button Clicked="OnView" Text="View Exhibitions" />
+
+        <Label  x:Name="lblError" FontSize="14" TextColor="Red" Text="  "/>
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

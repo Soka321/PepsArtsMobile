@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PepsArts Mobile</name>
+    </assembly>
+    <members>
+        <member name="P:PepsArts_Mobile.Models.Artpiece.DateCreated">
+            [Required(ErrorMessage = "Please provide Image for your Art piece")] //handling errors when no input
+                     public HttpPostedFileBase image { get; set; }  
+        </member>
+        <member name="T:PepsArts_Mobile.ViewModels.ExhibitionVM">
+            <inheritdoc/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.ExhibitionVM.ExhibitionSelected">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ExhibitionVM.exhibitionSelected"/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.ExhibitionVM.Exhibitions">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ExhibitionVM.exhibitions"/>
+        </member>
+        <member name="T:PepsArts_Mobile.ViewModels.LoginVM">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.LoginVM.Email">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.LoginVM.email"/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.LoginVM.Password">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.LoginVM.password"/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.LoginVM.Message">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.LoginVM.message"/>
+        </member>
+        <member name="F:PepsArts_Mobile.ViewModels.LoginVM.loginCommand">
+            <summary>The backing field for <see cref="P:PepsArts_Mobile.ViewModels.LoginVM.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.LoginVM.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PepsArts_Mobile.ViewModels.LoginVM.OnLogin"/>.</summary>
+        </member>
+        <member name="T:PepsArts_Mobile.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ExhibitionSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ExhibitionSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Exhibitions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Exhibitions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Message">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Message" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ExhibitionSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ExhibitionSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Exhibitions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Exhibitions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Message">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Message" generated properties.</summary>
+        </member>
+    </members>
+</doc>
