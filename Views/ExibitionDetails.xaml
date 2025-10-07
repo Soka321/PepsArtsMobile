@@ -39,6 +39,7 @@
 
 
         <Label Text="Exhibition Title :" x:Name="lblTitle" />
+        <Label Text="Exhibition Id :" x:Name="lblId" />
         <Button  Text="Get Exhibition"  Clicked = "ViewExhibition"/>
         <Button  Text="Register For exhibition"  Clicked= "OnRegister"/>
     </VerticalStackLayout>

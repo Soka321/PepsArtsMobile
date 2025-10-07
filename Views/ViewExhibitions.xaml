@@ -18,14 +18,14 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
 
+                        
 
-
-                    <Border  Padding="10" Margin="5" >
+                            <Border  Padding="10" Margin="5" >
                         <VerticalStackLayout>
 
+                                <Label x:Name="lblReg" FontSize="14" TextColor="Green" Text="{Binding Registered}"/>
 
-
-                            <Label Text="{Binding Name}"  FontAttributes="Bold" FontSize="18"/>
+                                <Label Text="{Binding Name}"  FontAttributes="Bold" FontSize="18"/>
                             <Label Text="{Binding Start_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
                             <Label Text="{Binding End_Date, StringFormat='End: {0:dd MMM yyyy}'}"  FontSize="14"/>
                             <Label Text="{Binding Description}"  FontSize="14"/>
@@ -33,9 +33,13 @@
 
                                 <Button Text="View Exhibition" Clicked="OnViewExhibitionClicked"/>
 
+                                <Button Text="Register for Exhibition" Clicked="OnRegister"/>
+
+
+
                             </VerticalStackLayout>
 
-
+                            
 
 
                         </Border>

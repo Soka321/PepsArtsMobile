@@ -110,7 +110,7 @@ namespace PepsArts_Mobile.ViewModels
     public class LoginResponse
     {
        // public bool Success { get; set; }
-        public string message { get; set; }
+        //public string message { get; set; }
         public string role { get; set; }
         public string name { get; set; }
         public int id { get; set; }

@@ -20,6 +20,9 @@ namespace PepsArts_Mobile.ViewModels
         private Exhibition exhibitionSelected = new();
 
         [ObservableProperty]
+        private string registered = UserSession.registered;
+
+        [ObservableProperty]
         private  ObservableCollection<Exhibition> exhibitions= new();
 
         public ExhibitionVM()

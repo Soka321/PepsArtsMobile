@@ -10,12 +10,11 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        
 
+        <Label> Number of Attendees coming?</Label>
             <Entry Placeholder="Please Provide number of Attendess" x:Name="NumAttendees"  Keyboard ="Numeric" />
-            <Entry IsPassword="True" Placeholder="Plesae Provide Date" x:Name="Date" />
-
-            <Button  Text="Register For Exhibition"  Clicked ="OnExhibitionRegister"/>
+            
+            <Button  Text="Register For Exhibition"  Clicked ="RegExhibition"/>
         <Label Text="{Binding Message}" x:Name="lblError" TextColor="red" />
         
     </VerticalStackLayout>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PepsArts Mobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1760d6d21398275a7b483b1b8d635fea382fa313")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+49f38eb838c95c21b245dd4cc23d7e4a4cd958c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PepsArts Mobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PepsArts Mobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

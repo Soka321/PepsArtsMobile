@@ -15,6 +15,8 @@ public partial class ViewExhibitions : ContentPage
 	{
 		InitializeComponent();
         _userService = new UserService();
+
+        
         //LoadExhibitions();
 	}
 
@@ -49,15 +51,26 @@ public partial class ViewExhibitions : ContentPage
 
     }
 
-    
+    //passing my self to teh deatils of Exhibition
     private void OnViewExhibitionClicked(object sender, EventArgs e)
     {
-        //Console.WriteLine("Button clicked!");
+       
         var button = sender as Button;
         var exhibition = button?.BindingContext as Exhibition;
         if (exhibition != null)
         {
             Shell.Current.GoToAsync($"ExibitionDetails?id={exhibition.Id}");
+        }
+    }
+
+    public void OnRegister(object sender, EventArgs e)
+    {
+        
+        var button = sender as Button;
+        var exhibition = button?.BindingContext as Exhibition;
+        if (exhibition != null)
+        {
+            Shell.Current.GoToAsync($"RegisterExhibition?id={exhibition.Id}");
         }
     }
     public async void LoadExhibitions()
@@ -89,6 +102,7 @@ public partial class ViewExhibitions : ContentPage
     }
     private async void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {
+        //lblReg.Text = UserSession.registered;
         /*var selectedExhibition = e.CurrentSelection?.FirstOrDefault() as Exhibition;
         if (selectedExhibition != null)
         {

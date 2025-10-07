@@ -27,8 +27,9 @@ Route="ViewArtPieces" />
     Title="Exhibition Detail"
     ContentTemplate="{DataTemplate views:ExibitionDetails}"
     Route="ExibitionDetails" />
-    
-    
+
+
+    <ShellContent Route="RegisterExhibition" ContentTemplate="{DataTemplate views:RegisterExhibition}" />
 
 
 </Shell>

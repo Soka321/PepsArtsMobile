@@ -33,6 +33,9 @@
         <member name="P:PepsArts_Mobile.ViewModels.ExhibitionVM.ExhibitionSelected">
             <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ExhibitionVM.exhibitionSelected"/>
         </member>
+        <member name="P:PepsArts_Mobile.ViewModels.ExhibitionVM.Registered">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ExhibitionVM.registered"/>
+        </member>
         <member name="P:PepsArts_Mobile.ViewModels.ExhibitionVM.Exhibitions">
             <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ExhibitionVM.exhibitions"/>
         </member>
@@ -101,6 +104,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ExhibitionSelected">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ExhibitionSelected" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Registered">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Registered" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
         </member>
@@ -130,6 +136,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ExhibitionSelected">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ExhibitionSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Registered">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Registered" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>

@@ -8,6 +8,7 @@ namespace PepsArts_Mobile
         {
             InitializeComponent();
             Routing.RegisterRoute("ExibitionDetails", typeof(ExibitionDetails));
+            Routing.RegisterRoute("RegisterExhibition", typeof(RegisterExhibition));
 
         }
     }

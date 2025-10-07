@@ -1,5 +1,8 @@
 using Microsoft.Maui.ApplicationModel.Communication;
+using Newtonsoft.Json;
 using PepsArts_Mobile.ViewModels;
+using System.Net.Http.Json;
+
 
 namespace PepsArts_Mobile.Views;
 
@@ -35,9 +38,81 @@ public partial class RegisterExhibition : ContentPage
             lblError.Text = "Please Provide number of Attendess";
 
         }
-        else if (string.IsNullOrEmpty(Date.Text))
+        
+    }
+
+    protected async void RegExhibition(object sender, EventArgs e)
+    {
+
+        if (string.IsNullOrEmpty(NumAttendees.Text))
         {
-            lblError.Text = "Provide the date Please";
+            lblError.Text = "Please Provide number of Attendess";
+
+        }
+        //RegisterExhibition reg = new RegisterExhibition();
+        string Message;
+        int user_id = UserSession.id;
+        if (user_id == 0)
+        {
+            lblError.Text = "Please login First to register for an Exhibition";
+            return;
+        }
+        var payload = new { user_id, number_of_attendees = Convert.ToInt32(NumAttendees.Text), registration_date = DateTime.Now };
+        try
+        {
+            var response = await client.PostAsJsonAsync($"http://192.168.18.17:2025/PepsArts/Exhibitions/Register/{ExhibitionId}", payload);
+
+            if (response.IsSuccessStatusCode)
+            {
+                UserSession.registered = "Registered";
+                await DisplayAlert("Exhibition Registration",UserSession.name+"" +"Successfully registered for Exhibition number : "+ ExhibitionId, "OK");
+                lblError.Text = "Successfully Registered for Exhibition";
+                await Navigation.PushAsync(new ViewExhibitions());
+
+            } else
+            {
+                lblError.Text = "Server error, could not Register for Exhibition, please try again";
+            }
+
+        }
+        catch (Exception ex)
+        {
+            lblError.Text = ex.Message;
         }
     }
-    }
+
+    /* try
+     {
+         string jsonString = JsonSerializer.Serialize(usertolog);
+         HttpContent content = new StringContent(jsonString, Encoding.UTF8,"application/json");
+
+         var data = await _userService.Login<User>("http://192.168.18.17:2025/PepsArts/Login", content);
+
+         if (data.role == "Visitor")
+         {
+             UserSession.id = data.id;
+             UserSession.name = data.email;
+             UserSession.role = data.role;
+
+             await Navigation.PushAsync(new MainPage());
+             await DisplayAlert("Success", "Welcome dear Visitor", " Ok");
+         }
+
+         else
+         {
+             await DisplayAlert("Test User Role:", Convert.ToString(data.role), "Ok");
+             lblError.Text = "User not registered";
+         }
+
+     }
+     catch (Exception ex)
+     {
+
+         lblError.Text = ex.Message;
+
+     }   */
+
+}
+
+       
+    
