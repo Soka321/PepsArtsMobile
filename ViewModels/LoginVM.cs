@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -43,24 +44,25 @@ namespace PepsArts_Mobile.ViewModels
             }
 
             var payload = new
-                {
-                    email = Email,
-                    password = Password
+            {
+                email = Email,
+                password = Password
 
-                };
+            };
 
-                var json = JsonConvert.SerializeObject(payload
-                );
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+           // var json = JsonConvert.SerializeObject(payload);
+
+           // var content = new StringContent(json, Encoding.UTF8, "application/json");
 
 
             try
             {
 
-               
 
-                var response = await client.PostAsync("http://192.168.18.17:2025/PepsArts/Login", content);
-                Console.WriteLine($"Sending login payload: {json}");
+
+                var response = await client.PostAsJsonAsync("http://192.168.18.17:2025/PepsArts/Login", payload);
+                //Console.WriteLine($"Sending login payload: {json}");
 
                 var responseBody = await response.Content.ReadAsStringAsync();
 
@@ -80,7 +82,7 @@ namespace PepsArts_Mobile.ViewModels
                     Message = " Login Successfully ";
                     //await DisplayAlert("Login Failed", "Failed to Login, Please try again..", "Cancel");
                     // message = "Successfully logged in";
-                   
+
                 }
                 else
                 {
@@ -91,19 +93,26 @@ namespace PepsArts_Mobile.ViewModels
             catch (HttpRequestException ex)
             {
 
-                
-                message ="Wrong Credintials, Plesae try again" + ex;
+
+                Message = "Wrong Credintials, Plesae try again" + ex;
 
             }
         }
+
+
+    }
+
+
+
+       
     }
 
     public class LoginResponse
     {
-        public bool Success { get; set; }
+       // public bool Success { get; set; }
         public string message { get; set; }
         public string role { get; set; }
         public string name { get; set; }
         public int id { get; set; }
     }
-}
+

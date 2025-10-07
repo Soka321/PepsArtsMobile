@@ -22,7 +22,7 @@ public partial class ViewExhibitions : ContentPage
     {
         try
         {
-            var data = await client.GetFromJsonAsync<List<Exhibition>>($"http://192.168.18.17:2025/PepsArts/Exhibitions");
+            var data = await client.GetFromJsonAsync<List<Exhibition>>($"http://10.0.2.2:2025/PepsArts/Exhibitions");
 
             if (data != null)
             {
@@ -47,6 +47,18 @@ public partial class ViewExhibitions : ContentPage
 
         
 
+    }
+
+    
+    private void OnViewExhibitionClicked(object sender, EventArgs e)
+    {
+        //Console.WriteLine("Button clicked!");
+        var button = sender as Button;
+        var exhibition = button?.BindingContext as Exhibition;
+        if (exhibition != null)
+        {
+            Shell.Current.GoToAsync($"ExibitionDetails?id={exhibition.Id}");
+        }
     }
     public async void LoadExhibitions()
     {
@@ -77,13 +89,13 @@ public partial class ViewExhibitions : ContentPage
     }
     private async void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        var selectedExhibition = e.CurrentSelection?.FirstOrDefault() as Exhibition;
+        /*var selectedExhibition = e.CurrentSelection?.FirstOrDefault() as Exhibition;
         if (selectedExhibition != null)
         {
             var vm = BindingContext as ExhibitionVM;
             await vm.TappedItem(selectedExhibition.Id);
 
             ExhibitionList.SelectedItem = null;
-        }
+        }*/
     }
 }

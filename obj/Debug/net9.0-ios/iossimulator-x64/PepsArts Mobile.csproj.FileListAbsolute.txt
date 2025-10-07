@@ -317,3 +317,5 @@ C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-ios\iossimulator-x
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-ios\iossimulator-x64\PepsArts Mobile.pdb
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-ios\iossimulator-x64\PepsArts Mobile.genruntimeconfig.cache
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-ios\iossimulator-x64\ref\PepsArts Mobile.dll
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-ios\iossimulator-x64\build-signature\signature
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-ios\iossimulator-x64\PepsArts Mobile.sourcelink.json

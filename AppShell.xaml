@@ -17,6 +17,11 @@
 Title="View Exhibitions"
 ContentTemplate="{DataTemplate views:ViewExhibitions}"
 Route="ViewExhibitions" />
+    
+    <ShellContent
+Title="View Art Pices"
+ContentTemplate="{DataTemplate views:ViewArtPieces}"
+Route="ViewArtPieces" />
 
     <ShellContent
     Title="Exhibition Detail"

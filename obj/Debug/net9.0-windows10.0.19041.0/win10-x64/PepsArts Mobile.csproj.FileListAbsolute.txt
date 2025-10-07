@@ -517,3 +517,18 @@ C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Updated peps arts Project\PepsArts Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
+C:\Updated peps arts Project\PepsArts Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-125.png
+C:\Updated peps arts Project\PepsArts Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-150.png
+C:\Updated peps arts Project\PepsArts Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-200.png
+C:\Updated peps arts Project\PepsArts Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-400.png
+C:\Updated peps arts Project\PepsArts Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
+C:\Updated peps arts Project\PepsArts Mobile\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\PepsArts Mobile.sourcelink.json

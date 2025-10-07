@@ -1,5 +1,6 @@
 ﻿
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using PepsArts_Mobile.Models;
 using System;
 using System.Collections.Generic;
@@ -44,12 +45,13 @@ namespace PepsArts_Mobile.ViewModels
             }
         }
 
-        public async Task TappedItem(int exhibitionId)
+        [RelayCommand]
+        public async Task TappedItem(Exhibition exhibition)
         {
-            //if (exhibition == null) return;
+            if (exhibition == null) return;
 
             
-           await  Shell.Current.GoToAsync($"ExhibitionDetails?id={exhibitionId}");
+           await  Shell.Current.GoToAsync($"ExibitionDetails?id={exhibition.Id}");
         }
     }
 }

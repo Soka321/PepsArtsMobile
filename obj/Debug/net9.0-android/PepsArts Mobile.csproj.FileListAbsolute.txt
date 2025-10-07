@@ -957,3 +957,4 @@ C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-android\stamp\_Con
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-android\PepsArts Mobile.sourcelink.json

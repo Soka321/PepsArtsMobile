@@ -75,6 +75,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = PepsArts_Mobile.Views.Regi
 build_metadata.AdditionalFiles.TargetPath = Views\RegisterExhibition.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RegisterExhibition.xaml
 
+[C:/Updated peps arts Project/PepsArts Mobile/Views/ViewArtPieces.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PepsArts_Mobile.Views.ViewArtPieces.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ViewArtPieces.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ViewArtPieces.xaml
+
 [C:/Updated peps arts Project/PepsArts Mobile/Views/ViewExhibitions.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PepsArts_Mobile.Views.ViewExhibitions.xaml

@@ -25,13 +25,11 @@ SemanticProperties.HeadingLevel="Level1"  />
                 SemanticProperties.Hint="Logs user to the system"
                 Clicked="OnLogin"
                 HorizontalOptions="Fill" />
+            <Image Source="homeg.png" HeightRequest="185"
+Aspect="AspectFit"
+SemanticProperties.Description="Offical peps Arts, Art Gallery Website" HorizontalOptions="Fill"/>
 
-            <Button
-    x:Name="btnExhibition"
-    Text="View Exhibitions" 
-    SemanticProperties.Hint="Logs user to the system"
-    Clicked="OnExhibition"
-    HorizontalOptions="Fill" />
+          
             <Label x:Name="lblError" />
         </VerticalStackLayout>
     </ScrollView>

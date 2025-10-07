@@ -4,11 +4,30 @@
         <name>PepsArts Mobile</name>
     </assembly>
     <members>
-        <member name="P:PepsArts_Mobile.Models.Artpiece.DateCreated">
-            [Required(ErrorMessage = "Please provide Image for your Art piece")] //handling errors when no input
-                     public HttpPostedFileBase image { get; set; }  
+        <member name="T:PepsArts_Mobile.ViewModels.ArtpieceVM">
+            <inheritdoc/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.ArtpieceVM.ArtpieceSelected">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ArtpieceVM.artpieceSelected"/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.ArtpieceVM.Artpieces">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ArtpieceVM.artpieces"/>
+        </member>
+        <member name="T:PepsArts_Mobile.ViewModels.ExhibitionDetailVM">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.ExhibitionDetailVM.Exhibitions">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ExhibitionDetailVM.exhibitions"/>
+        </member>
+        <member name="F:PepsArts_Mobile.ViewModels.ExhibitionDetailVM.registerCommand">
+            <summary>The backing field for <see cref="P:PepsArts_Mobile.ViewModels.ExhibitionDetailVM.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.ExhibitionDetailVM.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PepsArts_Mobile.ViewModels.ExhibitionDetailVM.Register(PepsArts_Mobile.Models.Exhibition)"/>.</summary>
         </member>
         <member name="T:PepsArts_Mobile.ViewModels.ExhibitionVM">
+            <inheritdoc/>
             <inheritdoc/>
         </member>
         <member name="P:PepsArts_Mobile.ViewModels.ExhibitionVM.ExhibitionSelected">
@@ -16,6 +35,12 @@
         </member>
         <member name="P:PepsArts_Mobile.ViewModels.ExhibitionVM.Exhibitions">
             <inheritdoc cref="F:PepsArts_Mobile.ViewModels.ExhibitionVM.exhibitions"/>
+        </member>
+        <member name="F:PepsArts_Mobile.ViewModels.ExhibitionVM.tappedItemCommand">
+            <summary>The backing field for <see cref="P:PepsArts_Mobile.ViewModels.ExhibitionVM.TappedItemCommand"/>.</summary>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.ExhibitionVM.TappedItemCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PepsArts_Mobile.ViewModels.ExhibitionVM.TappedItem(PepsArts_Mobile.Models.Exhibition)"/>.</summary>
         </member>
         <member name="T:PepsArts_Mobile.ViewModels.LoginVM">
             <inheritdoc/>
@@ -36,6 +61,22 @@
         <member name="P:PepsArts_Mobile.ViewModels.LoginVM.LoginCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PepsArts_Mobile.ViewModels.LoginVM.OnLogin"/>.</summary>
         </member>
+        <member name="T:PepsArts_Mobile.ViewModels.RegisterExhibitionVM">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.RegisterExhibitionVM.Exhibition">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.RegisterExhibitionVM.exhibition"/>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.RegisterExhibitionVM.Message">
+            <inheritdoc cref="F:PepsArts_Mobile.ViewModels.RegisterExhibitionVM.message"/>
+        </member>
+        <member name="F:PepsArts_Mobile.ViewModels.RegisterExhibitionVM.registerExhibitionCommand">
+            <summary>The backing field for <see cref="P:PepsArts_Mobile.ViewModels.RegisterExhibitionVM.RegisterExhibitionCommand"/>.</summary>
+        </member>
+        <member name="P:PepsArts_Mobile.ViewModels.RegisterExhibitionVM.RegisterExhibitionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PepsArts_Mobile.ViewModels.RegisterExhibitionVM.RegisterExhibition(PepsArts_Mobile.Models.Exhibition_Registration)"/>.</summary>
+        </member>
         <member name="T:PepsArts_Mobile.Resource">
             <summary>
             Android Resource Designer class.
@@ -48,11 +89,17 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ExhibitionSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ExhibitionSelected" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ArtpieceSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ArtpieceSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Artpieces">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Artpieces" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Exhibitions">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Exhibitions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ExhibitionSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ExhibitionSelected" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
@@ -63,17 +110,26 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Message">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Message" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Exhibition">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Exhibition" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ExhibitionSelected">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ExhibitionSelected" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ArtpieceSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ArtpieceSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Artpieces">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Artpieces" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Exhibitions">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Exhibitions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ExhibitionSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ExhibitionSelected" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
@@ -83,6 +139,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Message">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Message" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Exhibition">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Exhibition" generated properties.</summary>
         </member>
     </members>
 </doc>

@@ -306,3 +306,4 @@ C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-maccatalyst\maccat
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\PepsArts Mobile.pdb
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\PepsArts Mobile.genruntimeconfig.cache
 C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\PepsArts Mobile.dll
+C:\Updated peps arts Project\PepsArts Mobile\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\PepsArts Mobile.sourcelink.json

@@ -87,6 +87,9 @@
 	  <MauiXaml Update="Views\RegisterExhibition.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\ViewArtPieces.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ViewExhibitions.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

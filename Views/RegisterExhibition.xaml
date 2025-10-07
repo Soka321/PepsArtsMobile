@@ -16,7 +16,7 @@
             <Entry IsPassword="True" Placeholder="Plesae Provide Date" x:Name="Date" />
 
             <Button  Text="Register For Exhibition"  Clicked ="OnExhibitionRegister"/>
-            <Label Text="" x:Name="lblError" />
+        <Label Text="{Binding Message}" x:Name="lblError" TextColor="red" />
         
     </VerticalStackLayout>
 </ContentPage>

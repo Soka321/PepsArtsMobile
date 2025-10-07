@@ -4,20 +4,15 @@
              x:Class="PepsArts_Mobile.Views.ExibitionDetails"
              xmlns:local ="clr-namespace:PepsArts_Mobile.ViewModels"
              Title="ExibitionDetails">
+    
 
-    <ContentPage.BindingContext>
-        <local:ExhibitionVM/>
-    </ContentPage.BindingContext>
     <VerticalStackLayout Spacing="10" Padding="20">
         <Label 
             Text="Exhibition details"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <CollectionView ItemsSource="{Binding Exhibitions}"   SelectionMode="Single" >
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-
+       
 
 
                     <Border  Padding="10" Margin="5" >
@@ -25,15 +20,15 @@
 
 
 
-                            <Label Text="{Binding Name}"  FontAttributes="Bold" FontSize="18"/>
-                            <Label Text="{Binding Start_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
-                            <Label Text="{Binding End_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
-                            <Label Text="{Binding Description}"  FontSize="14"/>
-                            <Label Text="{Binding Status}"  FontSize="14"/>
+                            <Label Text="{Binding Exhibitions.Name}"  FontAttributes="Bold" FontSize="18"/>
+                            <Label Text="{Binding Exhibitions.Start_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
+                            <Label Text="{Binding Exhibitions.End_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
+                            <Label Text="{Binding Exhibitions.Description}"  FontSize="14"/>
+                            <Label Text="{Binding Exhibitions.Status}"  FontSize="14"/>
 
+                <Button Text="Register for  exhibition" Clicked="OnRegister"/>
 
-
-                        </VerticalStackLayout>
+            </VerticalStackLayout>
 
 
 
@@ -42,13 +37,9 @@
 
 
 
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-            </CollectionView>
-
 
         <Label Text="Exhibition Title :" x:Name="lblTitle" />
         <Button  Text="Get Exhibition"  Clicked = "ViewExhibition"/>
-        <Button  Text="Register For exhibition"  Clicked= "Register"/>
+        <Button  Text="Register For exhibition"  Clicked= "OnRegister"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -1,15 +1,31 @@
 using Microsoft.Maui.ApplicationModel.Communication;
+using PepsArts_Mobile.ViewModels;
 
 namespace PepsArts_Mobile.Views;
 
+[QueryProperty(nameof(ExhibitionId), "id")]
 public partial class RegisterExhibition : ContentPage
 {
-	public RegisterExhibition()
+
+    HttpClient client = new HttpClient();
+    public int ExhibitionId { get; set; }
+
+    public RegisterExhibition()
 	{
 		InitializeComponent();
-	}
+       // BindingContext = new RegisterExhibitionVM(exhibitionId);
+    }
+
+    //Console.WriteLine("Button clicked!");
+   
+
+    protected override void OnAppearing()
+    {
 
 
+        base.OnAppearing();
+        BindingContext = new RegisterExhibitionVM(ExhibitionId);
+    }
     private void OnExhibitionRegister(object sender, EventArgs e)
     {
         //use an if statement for if registered then the others use else if

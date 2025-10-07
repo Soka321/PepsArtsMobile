@@ -7,7 +7,8 @@
     <ContentPage.BindingContext>
         <local:ExhibitionVM/>
     </ContentPage.BindingContext>
-    <VerticalStackLayout Spacing="10" Padding="20">
+    <ScrollView>
+        <VerticalStackLayout Spacing="10" Padding="20">
         <Label 
             Text="Our Exhibitions"
             VerticalOptions="Center" 
@@ -26,13 +27,13 @@
 
                             <Label Text="{Binding Name}"  FontAttributes="Bold" FontSize="18"/>
                             <Label Text="{Binding Start_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
-                            <Label Text="{Binding End_Date, StringFormat='Start: {0:dd MMM yyyy}'}"  FontSize="14"/>
+                            <Label Text="{Binding End_Date, StringFormat='End: {0:dd MMM yyyy}'}"  FontSize="14"/>
                             <Label Text="{Binding Description}"  FontSize="14"/>
                             <Label Text="{Binding Status}"  FontSize="14"/>
 
+                                <Button Text="View Exhibition" Clicked="OnViewExhibitionClicked"/>
 
-
-                        </VerticalStackLayout>
+                            </VerticalStackLayout>
 
 
 
@@ -61,4 +62,5 @@
 
 
     </VerticalStackLayout>
+            </ScrollView>
 </ContentPage>
