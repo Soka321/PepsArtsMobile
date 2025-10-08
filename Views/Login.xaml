@@ -17,6 +17,7 @@ xmlns:local ="clr-namespace:PepsArts_Mobile.ViewModels"
         <Entry IsPassword="True" Placeholder="Plesae Provide your password"  x:Name="Password" Text="{Binding Password}"/>
 
         <Button  Text="Login"  Clicked="OnLogin"/>
+        
         <Label Text="{Binding Message}" x:Name="lblError" />
     </VerticalStackLayout>
 </ContentPage>

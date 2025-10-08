@@ -28,7 +28,7 @@ namespace PepsArts_Mobile.Models
         public int phone_number { get; set; }
 
         public required string role { get; set; }
-        public DateTime date_created { get; set; }
+        public DateTime date_created { get; set; } = DateTime.Now;
 
     }
 }

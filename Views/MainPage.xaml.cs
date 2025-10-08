@@ -18,6 +18,11 @@ namespace PepsArts_Mobile
 
             await Navigation.PushAsync(new Login());
         }
+        private async void OnRegister(Object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new Register());
+        }
 
         private async void OnExhibition(Object sender, EventArgs e)
         {

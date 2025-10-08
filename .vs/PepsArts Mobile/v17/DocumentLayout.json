@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Updated peps arts Project\\PepsArts Mobile\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\registerexhibition.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\registerexhibition.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\models\\artpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:models\\artpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\viewexhibitions.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -15,24 +51,12 @@
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:viewmodels\\exhibitionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\viewexhibitions.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\viewexhibitions.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\exibitiondetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,14 +107,6 @@
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\viewartpieces.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\models\\artpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:models\\artpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\viewartpieces.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\viewartpieces.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,20 +126,12 @@
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\models\\exhibitionartpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:models\\exhibitionartpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|c:\\updated peps arts project\\pepsarts mobile\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4B1CA2-9082-490E-961F-C8C88177C13C}|PepsArts Mobile.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -133,7 +141,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -141,45 +149,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Exhibition_Registration.cs",
-              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Exhibition_Registration.cs",
-              "RelativeDocumentMoniker": "Models\\Exhibition_Registration.cs",
-              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Exhibition_Registration.cs",
-              "RelativeToolTip": "Models\\Exhibition_Registration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Register.xaml.cs",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\Register.xaml.cs",
+              "RelativeToolTip": "Views\\Register.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAEcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T10:22:48.405Z",
+              "WhenOpened": "2025-10-08T19:31:38.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ViewExhibitions.xaml.cs",
-              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ViewExhibitions.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ViewExhibitions.xaml.cs",
-              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ViewExhibitions.xaml.cs",
-              "RelativeToolTip": "Views\\ViewExhibitions.xaml.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAAGgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T13:37:56.757Z",
+              "DocumentIndex": 5,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\Register.xaml",
+              "RelativeDocumentMoniker": "Views\\Register.xaml",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\Register.xaml",
+              "RelativeToolTip": "Views\\Register.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-08T19:11:54.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ArtpieceVM.cs",
-              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\ViewModels\\ArtpieceVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ArtpieceVM.cs",
-              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\ViewModels\\ArtpieceVM.cs",
-              "RelativeToolTip": "ViewModels\\ArtpieceVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T14:57:07.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\ViewModels\\LoginVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\LoginVM.cs",
@@ -198,27 +194,26 @@
               "RelativeDocumentMoniker": "Views\\Login.xaml",
               "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\Login.xaml",
               "RelativeToolTip": "Views\\Login.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-03T18:06:30.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T18:06:30.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\Login.xaml.cs",
               "RelativeDocumentMoniker": "Views\\Login.xaml.cs",
               "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\Login.xaml.cs",
               "RelativeToolTip": "Views\\Login.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwD4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T15:06:08.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ExibitionDetails.xaml.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ExibitionDetails.xaml.cs",
               "RelativeDocumentMoniker": "Views\\ExibitionDetails.xaml.cs",
@@ -226,12 +221,11 @@
               "RelativeToolTip": "Views\\ExibitionDetails.xaml.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T13:06:51.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T13:06:51.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "ExhibitionVM.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\ViewModels\\ExhibitionVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\ExhibitionVM.cs",
@@ -239,25 +233,24 @@
               "RelativeToolTip": "ViewModels\\ExhibitionVM.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T10:44:27.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T10:44:27.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "RegisterExhibition.xaml.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\RegisterExhibition.xaml.cs",
               "RelativeDocumentMoniker": "Views\\RegisterExhibition.xaml.cs",
               "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\RegisterExhibition.xaml.cs",
               "RelativeToolTip": "Views\\RegisterExhibition.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAEMAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T22:24:18.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "RegisterExhibition.xaml",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\RegisterExhibition.xaml",
               "RelativeDocumentMoniker": "Views\\RegisterExhibition.xaml",
@@ -265,12 +258,11 @@
               "RelativeToolTip": "Views\\RegisterExhibition.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-04T11:49:49.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T11:49:49.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
@@ -278,12 +270,11 @@
               "RelativeToolTip": "AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T16:40:01.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T16:40:01.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -291,12 +282,11 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-04T13:27:13.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T13:27:13.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "UserSession.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\UserSession.cs",
               "RelativeDocumentMoniker": "UserSession.cs",
@@ -304,12 +294,97 @@
               "RelativeToolTip": "UserSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T15:26:35.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T15:26:35.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Views\\MainPage.xaml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-03T16:22:45.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:00:34.113Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:09:34.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Artpiece.cs",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Artpiece.cs",
+              "RelativeDocumentMoniker": "Models\\Artpiece.cs",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Artpiece.cs",
+              "RelativeToolTip": "Models\\Artpiece.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T10:30:58.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ArtpieceVM.cs",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\ViewModels\\ArtpieceVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ArtpieceVM.cs",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\ViewModels\\ArtpieceVM.cs",
+              "RelativeToolTip": "ViewModels\\ArtpieceVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T14:57:07.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewExhibitions.xaml.cs",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ViewExhibitions.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ViewExhibitions.xaml.cs",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ViewExhibitions.xaml.cs",
+              "RelativeToolTip": "Views\\ViewExhibitions.xaml.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAGgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T13:37:56.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Exhibition_Registration.cs",
+              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Exhibition_Registration.cs",
+              "RelativeDocumentMoniker": "Models\\Exhibition_Registration.cs",
+              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Exhibition_Registration.cs",
+              "RelativeToolTip": "Models\\Exhibition_Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T10:22:48.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ViewExhibitions.xaml",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ViewExhibitions.xaml",
               "RelativeDocumentMoniker": "Views\\ViewExhibitions.xaml",
@@ -317,12 +392,11 @@
               "RelativeToolTip": "Views\\ViewExhibitions.xaml",
               "ViewState": "AgIAAAQAAAAAAAAAAAApwBkAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-04T11:47:46.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T11:47:46.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "RegisterExhibitionVM.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\ViewModels\\RegisterExhibitionVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\RegisterExhibitionVM.cs",
@@ -330,12 +404,11 @@
               "RelativeToolTip": "ViewModels\\RegisterExhibitionVM.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAAAFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:52:55.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T12:52:55.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "ExibitionDetails.xaml",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ExibitionDetails.xaml",
               "RelativeDocumentMoniker": "Views\\ExibitionDetails.xaml",
@@ -343,12 +416,11 @@
               "RelativeToolTip": "Views\\ExibitionDetails.xaml",
               "ViewState": "AgIAAAsAAAAAAAAAAAApwCoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-04T11:43:58.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T11:43:58.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Exhibition.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Exhibition.cs",
               "RelativeDocumentMoniker": "Models\\Exhibition.cs",
@@ -361,18 +433,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
-              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\MainPage.xaml",
-              "RelativeToolTip": "Views\\MainPage.xaml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-03T16:22:45.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "ExhibitionDetailVM.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\ViewModels\\ExhibitionDetailVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\ExhibitionDetailVM.cs",
@@ -380,24 +440,11 @@
               "RelativeToolTip": "ViewModels\\ExhibitionDetailVM.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:50:45.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T12:50:45.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Artpiece.cs",
-              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Artpiece.cs",
-              "RelativeDocumentMoniker": "Models\\Artpiece.cs",
-              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Artpiece.cs",
-              "RelativeToolTip": "Models\\Artpiece.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T10:30:58.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
@@ -409,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "ViewArtPieces.xaml",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ViewArtPieces.xaml",
               "RelativeDocumentMoniker": "Views\\ViewArtPieces.xaml",
@@ -417,24 +464,11 @@
               "RelativeToolTip": "Views\\ViewArtPieces.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-06T14:52:19.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T14:52:19.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:09:34.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ViewArtPieces.xaml.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\ViewArtPieces.xaml.cs",
               "RelativeDocumentMoniker": "Views\\ViewArtPieces.xaml.cs",
@@ -446,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ExhibitionArtPiece.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\ExhibitionArtPiece.cs",
               "RelativeDocumentMoniker": "Models\\ExhibitionArtPiece.cs",
@@ -458,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "MainApplication.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Platforms\\Android\\MainApplication.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
@@ -470,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "PepsArts Mobile.csproj",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\PepsArts Mobile.csproj",
               "RelativeDocumentMoniker": "PepsArts Mobile.csproj",
@@ -482,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Xamarin.Android.Aapt2.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.78\\tools\\Xamarin.Android.Aapt2.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.78\\tools\\Xamarin.Android.Aapt2.targets",
@@ -494,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\UserService.cs",
               "RelativeDocumentMoniker": "UserService.cs",
@@ -506,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Artist.cs",
               "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Models\\Artist.cs",
               "RelativeDocumentMoniker": "Models\\Artist.cs",
@@ -515,18 +549,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T10:34:59.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Updated peps arts Project\\PepsArts Mobile\\Views\\MainPage.xaml.cs",
-              "RelativeToolTip": "Views\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T17:00:34.113Z"
             }
           ]
         }

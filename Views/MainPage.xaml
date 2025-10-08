@@ -24,7 +24,8 @@ SemanticProperties.HeadingLevel="Level1"  />
                 Text="Login" 
                 SemanticProperties.Hint="Logs user to the system"
                 Clicked="OnLogin"
-                HorizontalOptions="Fill" />
+                 />
+            <Button  Text="Register" x:Name="btnRegister"  Clicked="OnRegister"/>
             <Image Source="homeg.png" HeightRequest="185"
 Aspect="AspectFit"
 SemanticProperties.Description="Offical peps Arts, Art Gallery Website" HorizontalOptions="Fill"/>
